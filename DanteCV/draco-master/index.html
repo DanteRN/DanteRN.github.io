@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dante CV</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Draco is free PSD &amp; HTML template by @afnizarnur">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/kube.min.css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/custom.min.css" />
+    <link rel="shortcut icon" href="img/favicon.png" />
+	<link href='https://fonts.googleapis.com/css?family=Playfair+Display+SC:700' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+	<style>
+		.intro h1:before {
+			
+			content: 'DANTE';
+		}
+	</style>
+</head>
+<body>
+	<!-- Navigation -->
+	<div class="main-nav">
+		<div class="container">
+			<header class="group top-nav">
+				<div class="navigation-toggle" data-tools="navigation-toggle" data-target="#navbar-1">
+				    <span class="logo">DANTE</span>
+				</div>
+			    <nav id="navbar-1" class="navbar item-nav">
+				    <ul>
+				        <li class="active"><a href="#about">About</a></li>
+				        <li><a href="#experiences">Experiences</a></li>
+				        <li><a href="#achievements">Achievements</a></li>
+				        <li><a href="#skills">Skills</a></li>
+				    </ul>
+				</nav>
+			</header>
+		</div>
+	</div>
+
+	<!-- Introduction -->
+	<div class="intro section" id="about">
+		<div class="container">
+			<p>Hi, I’m Dante Romero Nava</p>
+			<div class="units-row units-split wrap">
+				<div class="unit-20">
+					<img src="img/Dante.jpg" alt="Avatar">
+				</div>
+				<div class="unit-80">
+					<h1>I program in<br><span id="typed"></span></h1>
+				</div>
+				<p>
+					I'm currently a CS Major at Universidad Panamericana and have developed various differnt projects while in school and enjoy the challenges of programming. 
+				</p>
+			</div>
+		</div>
+	</div>
+
+	<!-- Work Experience -->
+	<div class="work section second" id="experiences">
+		<div class="container">
+			<h1>Proyects<br></h1>
+			<ul class="work-list">
+				<li>Proyect 1</li>
+				<li>Cotizador para cajas de una fabrica</li>
+				<li>App</li>
+			</ul>
+			<ul class="work-list">
+				<li>Proyect 2</li>
+				<li><a href="#">Bowling Page</a></li>
+				<li>Web Development</li>
+			</ul>
+		</div>
+	</div>
+
+	<!-- Award & Achievements -->
+	<div class="award section second" id="achievements">
+		<div class="container">
+			<h1>Awards &amp;<br>Achievements</h1>
+			<ul class="award-list list-flat">
+				<li>2023-2024</li>
+				<li>Currently have a 90 average in school.</li>
+				<li>Obtained a Javascript certificate from Codecademy</li>
+				<li>National U21 Champion.</li>
+				<li>End Year #1 rank U21 Mexico.</li>
+				<li>Member of U21 Team Mexico for third year in a row.</li>
+				<li>Won career 9th title.</li>
+			</ul>
+			<ul class="award-list list-flat">
+				<li>2022</li>
+				<li>Participated in <i>Primer Coloquio de Matematicas</i> and joined panteras machine learning</li>
+				<li>National champion in the U21 Team Mexico Trials for bowling.</li>
+				<li>Bowled the 2022 IBF U21 World Championships.</li>
+				<li>Regional Champion.</li>
+			</ul>
+		</div>
+	</div>
+
+	<!-- Technical Skills -->
+	<div class="skills section second" id="skills">
+		<div class="container">
+			<h1>Technical<br>Skills</h1>
+			<ul class="skill-list list-flat">
+				<li>Web Technology</li>
+				<li>HTML / CSS / Javascript / NodeJS / React</li>
+			</ul>
+			<ul class="skill-list list-flat">
+				<li>Database</li>
+				<li>MySQL</li>
+			</ul>
+			<ul class="skill-list list-flat">
+				<li>Other Languages</li>
+				<li>C++ / Python / C# </li>
+			</ul>
+		</div>
+	</div>
+
+	<footer>
+		<div class="container">
+			<div class="units-row">
+			    <div class="unit-50">
+			    	<p><address><a href="mailto:danteromeronava@gmail.com">Dante Romero Nava</a></address></p>
+			    </div>
+			    <div class="unit-50">
+					<ul class="social list-flat right">
+						<li><a href="https://www.instagram.com/danteromero30/"><i class="fa fa-instagram"></i></a></li>
+					</ul>
+			    </div>
+			</div>
+		</div>
+	</footer>
+
+	<!-- Javascript -->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/typed.min.js"></script>
+    <script src="js/kube.min.js"></script>
+    <script src="js/site.js"></script>
+    <script>
+		function newTyped(){}$(function(){$("#typed").typed({
+		// type effect
+		strings: ["python", "c++", "javascript","node.js","react"],
+
+		typeSpeed:90,backDelay:700,contentType:"html",loop:!0,resetCallback:function(){newTyped()}}),$(".reset").click(function(){$("#typed").typed("reset")})});
+    </script>
+</body>
+</html>
